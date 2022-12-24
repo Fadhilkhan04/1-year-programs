@@ -34,6 +34,7 @@ int main(){
       if (j == c - 1) {
         printf("\n\n");
       }
+      
     }
     return 0;
     }
