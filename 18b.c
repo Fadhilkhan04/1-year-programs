@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 
-  int r,c,a[100][100],b[100][100],sum[100][100],i,j;
+  int r,c,a[10][10],b[10][10],sum[10][10],i,j;
   printf("\n enter the number of rows:");
   scanf("%d",&r);
   printf("\n enter the number of columns:");
