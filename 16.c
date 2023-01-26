@@ -8,10 +8,10 @@ int main() {
 	printf("\nEnter 2 Numbers : ");
 	scanf("%d %d", &num1, &num2);
 	
-	fflush(stdin);
 	
+	fflush(stdin);
 	char opr;
-	printf("\nEnter Operator (+ - x / %% ^) : ");
+	printf("\nEnter Operator  : ");
 	scanf("%c", &opr);
 	
 	switch (opr) {

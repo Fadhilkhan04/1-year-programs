@@ -1,34 +1,30 @@
-#include<stdio.h>
-int main(){
-  int size,i,j,temp;
+#include <stdio.h>
 
-  printf("\nEnter size of array: ");
-  scanf("%d", &size);
+int main() {
+      int arr[50],num,i,j,temp;
 
-  int array[size];
-  int array[i];
-  int arr[j+1];
-  int array[j];
+      printf("\n please enter the no of elements you want in array:");
+      scanf("%d",&num);
 
+      printf("please enter the elements of array :");
+      for(i==0;i<num;i++);
+      scanf("%d",&arr[i]);
 
-  // Asking Elements from user
-  for (i=0; i<size; i++) {
-        printf("\nEnter element %d : ", i+1);
-        scanf("%d", &array[i]);
-    }
-  
-  for(i=0;i<size-1;i++)
-    for(j=0;j<size-i-1;j++){
-      if(array[j]>arr[j+1]){
-        temp=arr[j];
-        array[j]=arr[j+1];
-        arr[j+1]=temp;
+      for(i=0;i<num-1;i++) {
+        for(j=0;j<num-i-1;j++) {
+          if(arr[j]>arr[j+1]) {
+            temp=arr[j];
+            arr[j]=arr[j+1];
+            arr[j+1]=temp;
+          }
+        }
+
       }
-    }
- 
-  printf("array after implementing bubble sort:");
-  for(i=0;i<size;i++){
-    printf("%d",array[i]);
-  }
-  return 0;
+      printf("array after implementing bubble sort:");
+      for(i=0;i<num;i++) {
+        printf("%d ",arr[i]);
+      }
+      return 0;
+
+      
 }
