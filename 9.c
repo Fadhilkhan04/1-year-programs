@@ -12,7 +12,7 @@ int main() {
 	// typing.
 
 	printf("\n%c", a);
-
+                                                     
 	printf("\nEnter a character (by getche()): ");
 	a = getche();
 	// will not wait for enter, can see character while typing.
