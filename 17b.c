@@ -2,13 +2,13 @@
 
 int main() {
 
-    int num, factorial;
+    int num, factorial=1;
 
     printf("\nEnter number to find the factorial: ");
     scanf("%d", &num);
-    factorial = num;
+   
 
-    int i = num-1;
+    int i = num;
     while (i > 0) {
         factorial *= i;
         i--;

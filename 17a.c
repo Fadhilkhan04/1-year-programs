@@ -2,14 +2,14 @@
 
 int main() {
 
-    int num, factorial;
+    int num, factorial=1;
 
     printf("\nEnter number to find the factorial: ");
     scanf("%d", &num);
-    factorial = num;
+    
 
     int i;
-    for (i=num-1; i>0; i--) {
+    for (i=num; i>0; i--) {
         factorial *= i;
     }
 
